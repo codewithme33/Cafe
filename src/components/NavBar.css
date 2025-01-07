@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');/* Alegreya */
+
+*{
+    font-family: "Alegreya", serif !important;;
+}
+
+#navbar{
+    background-color:rgba(37, 37, 37, 1) !important;
+}
+
+#brandname{
+    font-family: "Alegreya", serif !important; 
+    font-optical-sizing: auto !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+}
+
+#navbarDropdown{
+    color : #ffffff !important;
+}
+
+#brandname img {
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+
