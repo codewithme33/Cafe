@@ -1,16 +1,8 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
-import backgroundImage from "../images/frame.png";
+
 const NavBar = () => {
-  const navBarStyle = {
-    backgroundImage: `url(${backgroundImage})`,
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
-    minHeight: "100vh",
-    width: "100%",
-  };
- 
+
   return (
     <Navbar expand="lg" style={navBarStyle} className="text-light shadow-lg">
       <Container>
