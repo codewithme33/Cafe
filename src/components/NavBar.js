@@ -9,8 +9,8 @@ const NavBar = () => {
     <Navbar id="navbar" expand="lg" className="text-light shadow-lg">
       <Container>
         <Navbar.Brand href="#home" id="brandname" className="text-success" >  <img src={logo} height={25} width={25} alt="logo"/>My Cafe</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarResponsive" />
-        <Navbar.Collapse id="navbarResponsive">
+        <Navbar.Toggle id="togglebutton" aria-controls="navbarResponsive" className="bg-light" />
+        <Navbar.Collapse id="navbarResponsive" className="bg-warning">
           <Nav className="ms-auto">
             <Nav.Link id="home" href="#home" className="active text-success">
               Home
