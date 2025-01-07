@@ -5,7 +5,8 @@
 }
 
 #navbar{
-    background-color:rgba(37, 37, 37, 1) !important;
+    position: sticky;
+    background-color:rgba(37, 37, 37, .9) !important;
 }
 
 #brandname{
@@ -19,8 +20,16 @@
     color : #ffffff !important;
 }
 
+NavDropdown.Item{
+    color : rgba(37, 37, 37, 0.9) !important;
+}
+
+
 #brandname img {
     margin-right: 6px;
     margin-bottom: 10px;
 }
 
+#togglebutton{
+    background-color: #ffffff !important;
+}
