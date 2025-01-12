@@ -20,6 +20,11 @@
     color : #ffffff !important;
 }
 
+#navbarDropdown > *{
+    color : #851f1f !important;
+}
+
+
 NavDropdown.Item{
     color : rgba(37, 37, 37, 0.9) !important;
 }
