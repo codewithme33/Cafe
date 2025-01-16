@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .banner {
     text-align: center;
     padding: 2rem;
-    color: white ;
-    margin-top: 6rem;
-
+    color: white;
+    margin-top: 3rem;
 }
 
 .banner h1 {
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-size: 3rem;
     font-weight: 600;
 }
@@ -31,14 +32,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
-    max-width: 100px; 
+    gap: 1rem;
+    flex: 1; 
+    max-width: 150px;
     margin-top: 1.5rem;
 }
 
 .banner ul li img {
     max-width: 50px;
-    margin: -2rem;
+    margin: 0;
+}
+
+.banner ul li p {
+    text-align: center;
 }
 
 
@@ -50,16 +56,21 @@
 
 @media (max-width: 768px) {
     .banner ul {
-        gap: 5rem; 
+        gap: 2rem; 
     }
 }
 
+@media (max-width: 480px) {
+    .banner ul {
+        gap: 1rem; 
+    }
+}
 
 .working-hours {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem; 
+    gap: 1rem;
 }
 
 #time {
@@ -70,6 +81,40 @@
 }
 
 #workinghour {
+    margin: 0;
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.6);
+    font-family: "Montserrat", serif;
+}
+
+#location {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#findus {
+    margin: 0;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Montserrat", serif;
+}
+
+#phonenumber {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#contactus {
+    margin: 0;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Montserrat", serif;
+}
+
+.banner-items {
+    margin-top: 4rem !important;
 }
