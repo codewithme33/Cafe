@@ -17,7 +17,7 @@ export default function Banner() {
 
     return (
         <div className="banner">
-            <h1>Welcome to My Cafe – where flavor and comfort meet!</h1>
+            <h1>Welcome to My Cafe - where flavor and comfort meet!</h1>
             <p>
                 My Cafe offers great coffee, delicious food, and a cozy ambiance perfect for any moment!
             </p>
