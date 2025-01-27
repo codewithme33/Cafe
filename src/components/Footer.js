@@ -70,14 +70,14 @@ const Footer = () => {
         <div className="row mt-5">
     
           <div className="col-md-12 text-center mb-4">
-            <a href="https://instagram.com/" className="text-light me-3" target="_blank">
-                <img src={insta_icon} style={{height:25, width : 25}}/>
+            <a href="https://instagram.com/" className="text-light me-3" target="_blank" rel="noreferrer">
+                <img src={insta_icon} style={{height:25, width : 25}} alt="instagram"/>
             </a>
-            <a href="https://www.whatsapp.com/" className="text-light me-3" target="_blank">
-                <img src={whatsapp_icon} style={{height:25, width : 25}}/>
+            <a href="https://www.whatsapp.com/" className="text-light me-3" target="_blank" rel="noreferrer">
+                <img src={whatsapp_icon} style={{height:25, width : 25}} alt="whatsapp"/>
             </a>
-            <a href="https://www.tiktok.com/" className="text-light me-3" target="_blank">
-                <img src={tiktok_icon} style={{height:25, width : 25}} />
+            <a href="https://www.tiktok.com/" className="text-light me-3" target="_blank" rel="noreferrer">
+                <img src={tiktok_icon} style={{height:25, width : 25}} alt="tiktok" />
             </a>
             
           </div>
